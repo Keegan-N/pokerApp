@@ -14,6 +14,7 @@
 		CACDDA2D2CC6F3E60078F702 /* pokerAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACDDA2C2CC6F3E60078F702 /* pokerAppTests.swift */; };
 		CACDDA372CC6F3E60078F702 /* pokerAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACDDA362CC6F3E60078F702 /* pokerAppUITests.swift */; };
 		CACDDA392CC6F3E60078F702 /* pokerAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACDDA382CC6F3E60078F702 /* pokerAppUITestsLaunchTests.swift */; };
+		CACDDA7E2CCC3F010078F702 /* PlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACDDA7D2CCC3F000078F702 /* PlayView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		CACDDA322CC6F3E60078F702 /* pokerAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pokerAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CACDDA362CC6F3E60078F702 /* pokerAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pokerAppUITests.swift; sourceTree = "<group>"; };
 		CACDDA382CC6F3E60078F702 /* pokerAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pokerAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CACDDA7D2CCC3F000078F702 /* PlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				CACDDA1B2CC6F3E50078F702 /* pokerAppApp.swift */,
 				CACDDA1D2CC6F3E50078F702 /* ContentView.swift */,
+				CACDDA7D2CCC3F000078F702 /* PlayView.swift */,
 				CACDDA1F2CC6F3E60078F702 /* Assets.xcassets */,
 				CACDDA212CC6F3E60078F702 /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CACDDA7E2CCC3F010078F702 /* PlayView.swift in Sources */,
 				CACDDA1E2CC6F3E50078F702 /* ContentView.swift in Sources */,
 				CACDDA1C2CC6F3E50078F702 /* pokerAppApp.swift in Sources */,
 			);
@@ -422,6 +426,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"pokerApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 6T8447A463;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -450,6 +455,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"pokerApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 6T8447A463;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
