@@ -11,7 +11,7 @@ import SwiftUI
 struct pokerAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PlayView(startingMoney: 500,scores: ["player":500,"bot 1":500,"bot 2":500,"bot 3":500])
         }
     }
 }
